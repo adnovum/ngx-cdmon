@@ -1,0 +1,26 @@
+{
+	"$schema": "./node_modules/ng-packagr/package.schema.json",
+	"name": "ngx-cdmon",
+	"version": "0.1.0",
+	"scripts": {
+		"build": "ng-packagr -p package.json"
+	},
+	"ngPackage": {
+		"lib": {
+			"entryFile": "main.ts"
+		}
+	},
+	"devDependencies": {
+		"@angular/compiler": "^6.0.9",
+		"@angular/compiler-cli": "^6.0.9",
+		"@angular/core": "^6.0.9",
+		"ng-packagr": "^3.0.6",
+		"tsickle": "^0.32.0",
+		"tslib": "^1.9.3",
+		"typescript": "~2.7.2",
+		"zone.js": "~0.8.26"
+	},
+	"peerDependencies": {
+		"@angular/core": ">=4.0.0"
+	}
+}
