@@ -2,7 +2,13 @@
 	"$schema": "./node_modules/ng-packagr/package.schema.json",
 	"name": "ngx-cdmon",
 	"license": "MIT",
-	"version": "0.1.1",
+	"version": "0.1.2",
+	"repository": "https://github.com/adnovum/ngx-cdmon",
+	"homepage": "https://github.com/adnovum/ngx-cdmon#readme",
+	"keywords": [
+		"angular",
+		"performance"
+	],
 	"scripts": {
 		"build": "ng-packagr -p package.json"
 	},
