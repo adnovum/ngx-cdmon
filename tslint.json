@@ -1,0 +1,22 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+		"arrow-parens": [true, "ban-single-arg-parens"],
+		"indent": [true, "tabs", 4],
+		"member-access": [true, "no-public"],
+		"no-console": false,
+		"no-empty": [true, "allow-empty-functions"],
+		"one-line": false,
+		"quotemark": [true, "single"],
+		"trailing-comma": [true, {
+			"multiline": "never",
+			"singleline": "never"
+		}],
+		"variable-name": [true, "check-format", "allow-leading-underscore"]
+	},
+    "rulesDirectory": []
+}

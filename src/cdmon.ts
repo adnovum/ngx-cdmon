@@ -29,8 +29,7 @@ export class CDMon implements OnDestroy {
 		this._enabled = value;
 		if (value) {
 			this.enable();
-		}
-		else {
+		} else {
 			this.disable();
 		}
 	}
@@ -40,7 +39,7 @@ export class CDMon implements OnDestroy {
 		const reporters = this.reporters;
 
 		reporters.forEach(reporter => reporter.startup());
-		this.app.tick = function () {
+		this.app.tick = function() {
 			reporters.forEach(reporter => reporter.beforeTick());
 			originalTick.call(this, arguments);
 			reporters.forEach(reporter => reporter.afterTick());
