@@ -1,3 +1,4 @@
+# This repo has been archived. Appreciate later work on fork version. Thanks!
 # ngx-cdmon
 A simple utility library for monitoring Angular change detection performance.
 
